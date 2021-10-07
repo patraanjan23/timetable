@@ -1,6 +1,7 @@
 $primaryColor: white;
 $dayColor: Green;
 $color2: pink;
+$color3: red;
 
 @mixin shadow($amount: 20px) {
     box-shadow: 0 0 $amount rgba($color: #000000, $alpha: 0.15);
@@ -91,7 +92,7 @@ h1 {
     }
 
     .ongoing {
-        border: thin solid $dayColor;
+        border: 2px solid $color3;
         @include shadow();
     }
 }
